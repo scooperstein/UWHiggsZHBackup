@@ -1,0 +1,2 @@
+ALL_PACKAGES += $(patsubst src/%,%,src/FinalStateAnalysis/NtupleTools)
+subdirs_src_FinalStateAnalysis_NtupleTools := src_FinalStateAnalysis_NtupleTools_bin src_FinalStateAnalysis_NtupleTools_python src_FinalStateAnalysis_NtupleTools_src src_FinalStateAnalysis_NtupleTools_scripts src_FinalStateAnalysis_NtupleTools_test

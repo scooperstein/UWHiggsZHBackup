@@ -1,0 +1,13 @@
+/README/1.3/Tue Sep 18 08:36:11 2012//Tbonato_supermela_20121107
+/contours.cxx/1.2/Thu Nov  1 09:49:12 2012//Tbonato_supermela_20121107
+/execute_SignalSeparationCombine.sh/1.6/Thu Nov  1 10:31:32 2012//Tbonato_supermela_20121107
+/execute_SignalSeparationLandS.sh/1.7/Fri Oct 12 21:42:56 2012//Tbonato_supermela_20121107
+/extractSignificanceStats.C/1.7/Tue Nov  6 09:05:44 2012//Tbonato_supermela_20121107
+/haddLands.py/1.1/Thu Sep 20 22:01:44 2012//Tbonato_supermela_20121107
+/instructions.txt/1.3/Fri Oct 12 21:42:56 2012//Tbonato_supermela_20121107
+/plotScan1D.C/1.1/Mon Nov  5 10:37:22 2012//Tbonato_supermela_20121107
+/runSignalSeparation.py/1.11/Fri Oct 12 21:42:56 2012//Tbonato_supermela_20121107
+/submitToLXB_tpl.sh/1.6/Fri Oct 12 21:42:56 2012//Tbonato_supermela_20121107
+/submitToPBS_tpl.csh.pbs/1.1/Fri Aug 24 19:57:50 2012//Tbonato_supermela_20121107
+/tdrstyle.cc/1.1/Fri Aug 24 19:57:50 2012//Tbonato_supermela_20121107
+D

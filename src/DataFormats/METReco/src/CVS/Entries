@@ -1,0 +1,19 @@
+/BeamHaloSummary.cc/1.4/Wed Jul 20 12:51:45 2011//Tb5_3_X_cvMEtCorr_2013Feb22
+/CSCHaloData.cc/1.9/Sun Jun 19 01:35:33 2011//Tb5_3_X_cvMEtCorr_2013Feb22
+/CaloMET.cc/1.2/Thu Oct 15 16:37:26 2009//Tb5_3_X_cvMEtCorr_2013Feb22
+/EcalHaloData.cc/1.4/Tue Apr  5 15:26:34 2011//Tb5_3_X_cvMEtCorr_2013Feb22
+/GenMET.cc/1.3/Thu Mar 18 15:26:09 2010//Tb5_3_X_cvMEtCorr_2013Feb22
+/GlobalHaloData.cc/1.3/Thu Oct 14 23:03:48 2010//Tb5_3_X_cvMEtCorr_2013Feb22
+/HcalHaloData.cc/1.2/Fri Nov 13 15:56:15 2009//Tb5_3_X_cvMEtCorr_2013Feb22
+/HcalNoiseHPD.cc/1.7/Tue Apr  5 15:26:34 2011//Tb5_3_X_cvMEtCorr_2013Feb22
+/HcalNoiseRBX.cc/1.7/Wed Jun 16 12:30:34 2010//Tb5_3_X_cvMEtCorr_2013Feb22
+/HcalNoiseSummary.cc/1.9/Tue Jul 10 14:20:43 2012//Tb5_3_X_cvMEtCorr_2013Feb22
+/MET.cc/1.12/Tue Apr  5 15:26:34 2011//Tb5_3_X_cvMEtCorr_2013Feb22
+/MVAMEtData.cc/1.1/Fri Aug 31 08:57:55 2012//Tb5_3_X_cvMEtCorr_2013Feb22
+/PFClusterMET.cc/1.1/Tue Dec 28 16:21:46 2010//Tb5_3_X_cvMEtCorr_2013Feb22
+/PFMET.cc/1.1/Thu Oct 15 17:51:49 2009//Tb5_3_X_cvMEtCorr_2013Feb22
+/PhiWedge.cc/1.2/Fri Nov 13 15:56:07 2009//Tb5_3_X_cvMEtCorr_2013Feb22
+/SigInputObj.cc/1.2/Mon Sep 17 17:55:18 2012//Tb5_3_X_cvMEtCorr_2013Feb22
+/classes.h/1.36/Thu Sep 20 12:50:44 2012//Tb5_3_X_cvMEtCorr_2013Feb22
+/classes_def.xml/1.41/Wed Jan  9 17:37:41 2013//Tb5_3_X_cvMEtCorr_2013Feb22
+D

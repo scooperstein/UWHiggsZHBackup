@@ -1,0 +1,2 @@
+ALL_PACKAGES += $(patsubst src/%,%,src/HiggsAnalysis/HiggsToTauTau)
+subdirs_src_HiggsAnalysis_HiggsToTauTau := src_HiggsAnalysis_HiggsToTauTau_scripts src_HiggsAnalysis_HiggsToTauTau_src src_HiggsAnalysis_HiggsToTauTau_bin src_HiggsAnalysis_HiggsToTauTau_test src_HiggsAnalysis_HiggsToTauTau_python

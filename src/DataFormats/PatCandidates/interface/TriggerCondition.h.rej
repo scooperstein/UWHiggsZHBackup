@@ -1,0 +1,5 @@
+***************
+*** 90
+-       std::string name() const { return name_; };
+--- 90 -----
++       const std::string& name() const { return name_; };

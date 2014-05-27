@@ -1,0 +1,12 @@
+/BeamHaloSummaryProducer.h/1.8/Sun Nov  3 19:57:07 2013//TV03-03-12-02
+/CSCHaloDataProducer.h/1.10/Sun Nov  3 19:57:07 2013//TV03-03-12-02
+/EcalHaloDataProducer.h/1.5/Sun Nov  3 19:57:07 2013//TV03-03-12-02
+/GlobalHaloDataProducer.h/1.6/Sun Nov  3 19:57:07 2013//TV03-03-12-02
+/HcalHaloDataProducer.h/1.5/Sun Nov  3 19:57:07 2013//TV03-03-12-02
+/HcalNoiseInfoProducer.h/1.14/Sun Nov  3 19:57:07 2013//TV03-03-12-02
+/METProducer.h/1.26/Sun Nov  3 19:57:07 2013//TV03-03-12-02
+/MinMETProducerT.h/1.1/Sun Nov  3 19:57:07 2013//TV03-03-12-02
+/MuonMET.h/1.1/Sun Nov  3 19:57:07 2013//TV03-03-12-02
+/MuonMETValueMapProducer.h/1.1/Sun Nov  3 19:57:07 2013//TV03-03-12-02
+/MuonTCMETValueMapProducer.h/1.5/Sun Nov  3 19:57:07 2013//TV03-03-12-02
+D

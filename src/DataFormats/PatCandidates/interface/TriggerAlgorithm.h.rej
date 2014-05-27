@@ -1,0 +1,20 @@
+***************
+*** 104
+-       std::string name() const { return name_; };
+--- 104 -----
++       const std::string& name() const { return name_; };
+***************
+*** 106
+-       std::string alias() const { return alias_; };
+--- 106 -----
++       const std::string& alias() const { return alias_; };
+***************
+*** 108
+-       std::string logicalExpression() const { return logic_; };
+--- 108 -----
++       const std::string& logicalExpression() const { return logic_; };
+***************
+*** 127
+-       std::vector< unsigned > conditionKeys() const { return conditionKeys_; };
+--- 127 -----
++       const std::vector< unsigned >& conditionKeys() const { return conditionKeys_; };

@@ -1,0 +1,2 @@
+ALL_PACKAGES += $(patsubst src/%,%,src/RecoParticleFlow/PFProducer)
+subdirs_src_RecoParticleFlow_PFProducer := src_RecoParticleFlow_PFProducer_python src_RecoParticleFlow_PFProducer_test src_RecoParticleFlow_PFProducer_src src_RecoParticleFlow_PFProducer_plugins

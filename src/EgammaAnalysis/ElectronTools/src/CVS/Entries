@@ -1,0 +1,12 @@
+/EGammaCutBasedEleId.cc/1.1/Mon Dec  3 20:51:00 2012//TFB_4Jun2013
+/EGammaCutBasedEleIdAnalyzer.cc/1.1/Mon Dec  3 20:51:02 2012//TFB_4Jun2013
+/EGammaMvaEleEstimator.cc/1.2/Mon May 27 20:04:29 2013//TFB_4Jun2013
+/EcalIsolationCorrector.cc/1.4/Mon Apr 29 15:00:11 2013//TFB_4Jun2013
+/ElectronEPcombinator.cc/1.5/Mon Jun  3 10:25:43 2013//TFB_4Jun2013
+/ElectronEnergyCalibrator.cc/1.7/Mon Jun  3 10:25:43 2013//TFB_4Jun2013
+/ElectronEnergyRegressionEvaluate.cc/1.6/Mon Apr 15 10:04:05 2013//TFB_4Jun2013
+/EpCombinationTool.cc/1.6/Thu May  9 18:44:42 2013//TFB_4Jun2013
+/PFIsolationEstimator.cc/1.2/Fri May 31 19:35:43 2013//TFB_4Jun2013
+/SuperClusterHelper.cc/1.4/Mon Apr 15 10:04:05 2013//TFB_4Jun2013
+/PatElectronEnergyCalibrator.cc/1.16/Fri Jan 25 10:30:21 2013//T1.16
+D

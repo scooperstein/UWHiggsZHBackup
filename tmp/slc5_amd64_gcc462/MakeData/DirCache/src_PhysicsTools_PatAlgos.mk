@@ -1,0 +1,2 @@
+ALL_PACKAGES += $(patsubst src/%,%,src/PhysicsTools/PatAlgos)
+subdirs_src_PhysicsTools_PatAlgos := src_PhysicsTools_PatAlgos_test src_PhysicsTools_PatAlgos_python src_PhysicsTools_PatAlgos_src src_PhysicsTools_PatAlgos_plugins src_PhysicsTools_PatAlgos_scripts

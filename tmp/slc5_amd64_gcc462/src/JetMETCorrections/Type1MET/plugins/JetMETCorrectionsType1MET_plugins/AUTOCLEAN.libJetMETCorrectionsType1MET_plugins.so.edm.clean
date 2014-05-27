@@ -1,0 +1,2 @@
+01:/bin/rm -f lib/slc5_amd64_gcc462/pluginJetMETCorrectionsType1MET_plugins.so lib/slc5_amd64_gcc462/JetMETCorrectionsType1MET_plugins.edmplugin
+90:edmPluginRefresh lib/slc5_amd64_gcc462

@@ -1,0 +1,15 @@
+***************
+*** 91
+-       std::string label() const { return label_; };
+--- 91 -----
++       const std::string& label() const { return label_; };
+***************
+*** 93
+-       std::string type() const { return type_; };
+--- 93 -----
++       const std::string& type() const { return type_; };
+***************
+*** 95
+-       std::vector< unsigned > objectKeys() const { return objectKeys_; };
+--- 95 -----
++       const std::vector< unsigned >& objectKeys() const { return objectKeys_; };

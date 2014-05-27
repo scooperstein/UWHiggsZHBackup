@@ -1,0 +1,749 @@
+Reading cached build data
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Building CMSSW version CMSSW_5_3_9 ----
+>> Entering Package RecoVertex/AdaptiveVertexFinder
+>> Entering Package HiggsAnalysis/HiggsToTauTau
+------- copying files from src/HiggsAnalysis/HiggsToTauTau/scripts -------
+>> Entering Package HiggsAnalysis/CombinedLimit
+>> copied add_stat_shapes.py
+>> copied combine-bayes.py
+>> copied combine-cls.py
+>> copied combine-sig.py
+>> copied combine-single.py
+>> copied combine-tanb-asymptotic.py
+>> copied combine-tanb.py
+>> copied combine_cards_with_names.sh
+>> copied count_crab_results.py
+>> copied create-datacard.py
+>> Entering Package FinalStateAnalysis/DataFormats
+>> copied cvs2local.py
+>> copied datacard-project.py
+>> copied datacards2Tables.py
+>> copied horizontal-morphing.py
+>> copied init.py
+>> copied inject-signal.py
+>> copied lands-bayes.py
+>> copied lands-cls.py
+>> copied limit.py
+>> copied lxb_limit.py
+------- copying files from src/HiggsAnalysis/CombinedLimit/scripts -------
+>> copied lxb_submit.py
+>> Entering Package FinalStateAnalysis/TagAndProbe
+>> copied combineCards.py
+>> copied scale-counting.py
+>> Entering Package FinalStateAnalysis/NtupleTools
+>> copied text2workspace.py
+>> copied scale2SM.py
+>> copied scale2unit.py
+>> copied setup-batch.py
+>> copied setup-datacards.py
+>> copied setup-htt-SM4.py
+>> copied setup-htt.py
+------- copying files from src/FinalStateAnalysis/NtupleTools/scripts -------
+>> Entering Package FinalStateAnalysis/PlotTools
+>> copied setup-hww.py
+>> copied skim_ntuple_events.py
+------- copying files from src/FinalStateAnalysis/PlotTools/scripts -------
+>> copied setup-ztt.py
+>> Entering Package FinalStateAnalysis/Utilities
+>> copied submit-slave.py
+>> Entering Package FinalStateAnalysis/MetaData
+>> copied DumpMCvsData.py
+>> copied submit.py
+>> copied add_tag_to_json.py
+------- copying files from src/FinalStateAnalysis/Utilities/scripts -------
+>> copied svn2local.py
+>> copied TriggerFinder.py
+>> copied combine_event_lists.py
+>> Entering Package FinalStateAnalysis/StatTools
+------- copying files from src/FinalStateAnalysis/MetaData/scripts -------
+>> copied discover_ntuples.py
+>> copied addSelectedHPSTaus.py
+>> Entering Package FinalStateAnalysis/PatTools
+>> copied convertRunEventListToJSON.py
+>> copied dump_branch_names.py
+>> copied averageLuminosity.py
+>> copied dump_lumimask.py
+>> copied findDataset.py
+>> copied fsaPickEvents.py
+>> copied dump_profile_stats.py
+>> copied compareEventLists.py
+>> copied get_lumis_from_dbs.py
+>> copied embed_label.py
+>> copied get_mc_lumi.py
+>> copied condor_summary.py
+>> copied events_overlap.py
+>> copied get_tuple_info.py
+>> copied extract_meta_info.py
+>> copied convertHD5.py
+>> copied make_tuple_table.py
+>> copied das_client.py
+>> copied make_cython_proxy.py
+>> copied pick.py
+>> copied deltaR.py
+>> copied pickEvents.py
+>> copied dropLumiInfo.py
+>> copied mega
+>> copied printEvents.py
+>> copied dumpRuns.py
+>> copied mega-batch.sh
+>> copied edmEventSizeReport.py
+>> copied tuple_watcher.py
+>> copied mega-farmout
+>> copied eventListJSONDump.py
+>> copied mega.py
+>> copied eventlist2lumimask.py
+>> copied megadebug
+>> copied extract_json.py
+>> copied get_ntuple_entries.py
+>> copied megaevents.py
+>> copied large_hadd.py
+>> copied pick_fsa_events.py
+>> copied lumicalc_parser.py
+>> copied shapes2hist.py
+>> copied lumimask_ops.py
+>> copied percentDiff.py
+>> copied printEventContent_cfg.py
+>> copied print_histogram_yields.py
+>> copied quad.py
+>> copied resubmit_failed_jobs.sh
+>> copied root_file_check.py
+>> copied submit_job.py
+>> copied sumcol.py
+>> copied trimJSON.py
+------- copying files from src/FinalStateAnalysis/StatTools/scripts -------
+>> Entering Package FinalStateAnalysis/recipe
+>> copied compare_fits.py
+>> Entering Package FinalStateAnalysis/DataAlgos
+>> copied compare_limit.py
+>> Entering Package FinalStateAnalysis/RecoTools
+>> copied comparelimit.py
+>> copied compute_cls.sh
+>> copied compute_limits.sh
+>> Entering Package FWCore/GuiBrowsers
+>> copied compute_significance.sh
+------- copying files from src/FinalStateAnalysis/RecoTools/scripts -------
+>> Entering Package JetMETCorrections/METPUSubtraction
+>> copied efficiency.py
+>> copied dumpTrigger.py
+>> copied fit_efficiency.py
+>> copied fit_efficiency2D.py
+>> copied fit_efficiency_chi2.py
+------- copying files from src/FWCore/GuiBrowsers/scripts -------
+>> Entering Package JetMETCorrections/Type1MET
+>> copied edmConfigBrowser
+>> copied edmConfigEditor
+>> Entering Package RecoMET/METAlgorithms
+>> copied interpolate_card.py
+>> copied edmConfigEditorSSH
+>> Entering Package RecoMET/METProducers
+>> copied limit2JSON.py
+>> copied edmConfigToGraph
+>> copied limitROOT2JSON.py
+>> copied edmConfigToHTML
+>> copied make_grid_submission.py
+>> copied plot_limit.py
+>> copied plotlimit.py
+>> Entering Package RecoJets/JetProducers
+>> copied remove_systematics.py
+>> copied run_grid_point.sh
+>> Entering Package RecoEgamma/EgammaTools
+>> copied sOverSqrtSpB.py
+>> copied signal_strength_to_xsec.py
+>> Entering Package Higgs/Higgs_CS_and_Width
+>> copied stupidLimitCombiner.py
+>> Entering Package RecoBTag/SecondaryVertex
+>> copied texlimit.py
+>> Entering Package RecoTauTag/RecoTau
+>> Entering Package RecoTauTag/Configuration
+>> Entering Package HZZ4L_Combination/CombinationPy
+>> Entering Package ZZMatrixElement/MEMCalculators
+>> Entering Package ZZMatrixElement/MEKD
+>> Entering Package ZZMatrixElement/MELA
+>> Entering Package UWHiggs/wh
+>> Entering Package UWHiggs/tth
+>> Entering Package UWHiggs/dependencies
+>> Entering Package UWHiggs/test
+>> Entering Package UWHiggs/lfvmutau
+>> Entering Package UWHiggs/hzg
+------- copying files from src/UWHiggs/hzg/scripts -------
+>> Entering Package UWHiggs/h2tau
+>> Entering Package UWHiggs/zh
+>> copied hzg_analysis.py
+>> Entering Package PhysicsTools/PatAlgos
+>> copied hzg_electron_cutflow_dump_52X.py
+>> copied hzg_muon_cutflow_dump_52X.py
+>> copied make_hzg_datacards.py
+>> copied print_hzg_ntuples.py
+>> copied run_hzg_sync_42X.sh
+>> copied run_hzg_sync_52X.sh
+------- copying files from src/PhysicsTools/PatAlgos/scripts -------
+>> Entering Package PhysicsTools/PatUtils
+>> copied run_hzg_sync_53X.sh
+>> copied patReplaceFast.pl
+>> copied submit_hzg_analysis.py
+>> copied patReplaceGenerator.sh
+>> copied submit_hzg_ntuples.py
+>> Entering Package DataFormats/PatCandidates
+>> Entering Package DataFormats/JetReco
+>> Entering Package DataFormats/METReco
+>> Entering Package DataFormats/StdDictionaries
+>> Entering Package DataFormats/CaloRecHit
+>> Entering Package DataFormats/HLTReco
+>> Entering Package CommonTools/RecoUtils
+>> Entering Package CommonTools/ParticleFlow
+>> Entering Package TauAnalysis/CandidateTools
+>> Entering Package CondFormats/EgammaObjects
+>> Entering Package RecoLuminosity/LumiDB
+>> Entering Package RecoParticleFlow/PFProducer
+------- copying files from src/RecoLuminosity/LumiDB/scripts -------
+>> Entering Package QuarkGluonTagger/EightTeV
+>> copied applyCalibration.py
+>> copied csvLumiCalc.py
+>> Entering Package EgammaAnalysis/ElectronTools
+>> copied dumpFill.py
+>> Creating project symlinks
+>> copied dumpRunInfo.py
+>> copied dumpTrg.py
+>> copied dumpWBM.py
+>> copied estimatePileup.py
+>> copied estimatePileup2.py
+>> copied estimatePileup_makeJSON.py
+>> copied lumiCalc2.py
+>> copied lumiContext.py
+>> copied lumiDBFiller.py
+>> copied lumiData2.py
+>> copied lumiNorm.py
+>> copied lumiPatch.py
+>> copied lumiPlot.py
+>> copied lumiSchema.py
+>> copied lumiTag.py
+>> copied lumidb2Schema.py
+>> copied pileupCalc.py
+>> copied pileupReCalc_HLTpaths.py
+>> copied pixelLumiCalc.py
+>> copied specificLumi.py
+>> copied summaryLumi.py
+>> Leaving Package FinalStateAnalysis/recipe
+>> Package FinalStateAnalysis/recipe built
+>> Leaving Package HZZ4L_Combination/CombinationPy
+>> Package HZZ4L_Combination/CombinationPy built
+>> Leaving Package UWHiggs/wh
+>> Package UWHiggs/wh built
+>> Leaving Package UWHiggs/tth
+>> Package UWHiggs/tth built
+>> Leaving Package UWHiggs/dependencies
+>> Package UWHiggs/dependencies built
+>> Leaving Package UWHiggs/test
+>> Package UWHiggs/test built
+>> Leaving Package UWHiggs/lfvmutau
+>> Package UWHiggs/lfvmutau built
+>> Leaving Package UWHiggs/h2tau
+>> Package UWHiggs/h2tau built
+>> Leaving Package UWHiggs/zh
+>> Package UWHiggs/zh built
+>> Subsystem HZZ4L_Combination built
+>> Compiling  /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/test/test_FinalState.cppunit.cc 
+>> Compiling  /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/PATFinalState.cc 
+>> Compiling  /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/PATFinalStateProxy.cc 
+>> Compiling  /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/PATMultiCandFinalState.cc 
+>> Building LCG reflex dict from header file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes.h
+>> Compiling  /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc 
+>> Compiling  /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/NtupleTools/src/PATFinalStateAnalysis.cc 
+>> Compiling  /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/NtupleTools/src/PATFinalStateSelection.cc 
+In file included from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/localefwd.h:42:0,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ios:42,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/iostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/assert.hpp:82,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/smart_ptr/shared_ptr.hpp:29,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/shared_ptr.hpp:17,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/interface/PATFinalStateProxy.h:11,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/PATFinalStateProxy.cc:1:
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53:23: error: 'uselocale' was not declared in this scope
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53:45: error: invalid type in declaration before ';' token
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h: In function 'int std::__convert_from_v(__locale_struct* const&, char*, int, const char*, ...)':
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:76:53: error: '__gnu_cxx::__uselocale' cannot be used as a function
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:101:33: error: '__gnu_cxx::__uselocale' cannot be used as a function
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc:41:25: error: invalid suffix "vec" on integer constant
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc:80:5: error: invalid suffix "vec.push_back" on integer constant
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc:81:5: error: invalid suffix "vec.push_back" on integer constant
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc:82:5: error: invalid suffix "vec.push_back" on integer constant
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc:85:5: error: invalid suffix "vec.push_back" on integer constant
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc:88:12: error: invalid suffix "vec" on integer constant
+In file included from /usr/include/stdio.h:929:0,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/cstdio:44,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ext/string_conversions.h:39,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/basic_string.h:2756,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/string:54,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/locale_classes.h:42,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/ios_base.h:43,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ios:43,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/iostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/assert.hpp:82,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/smart_ptr/shared_ptr.hpp:29,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/shared_ptr.hpp:17,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/interface/PATFinalStateProxy.h:11,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/PATFinalStateProxy.cc:1:
+/usr/include/bits/stdio.h: In function '__ssize_t getline(char**, size_t*, FILE*)':
+/usr/include/bits/stdio.h:118:52: error: '__getdelim' was not declared in this scope
+In file included from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/localefwd.h:42:0,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/string:45,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/cppunit/1.12.1/include/cppunit/Message.h:12,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/cppunit/1.12.1/include/cppunit/Exception.h:5,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/cppunit/1.12.1/include/cppunit/TestCaller.h:4,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/cppunit/1.12.1/include/cppunit/extensions/HelperMacros.h:9,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/test/test_FinalState.cppunit.cc:5:
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53:23: error: 'uselocale' was not declared in this scope
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53:45: error: invalid type in declaration before ';' token
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h: In function 'int std::__convert_from_v(__locale_struct* const&, char*, int, const char*, ...)':
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:76:53: error: '__gnu_cxx::__uselocale' cannot be used as a function
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:101:33: error: '__gnu_cxx::__uselocale' cannot be used as a function
+In file included from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/localefwd.h:42:0,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/string:45,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/FillView.h:11,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/fillPtrVector.h:24,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/OwnVector.h:6,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Candidate/interface/CandidateFwd.h:3,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/interface/ApplySVfit.h:12,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc:11:
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53:23: error: 'uselocale' was not declared in this scope
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53:45: error: invalid type in declaration before ';' token
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h: In function 'int std::__convert_from_v(__locale_struct* const&, char*, int, const char*, ...)':
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:76:53: error: '__gnu_cxx::__uselocale' cannot be used as a function
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:101:33: error: '__gnu_cxx::__uselocale' cannot be used as a function
+In file included from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/localefwd.h:42:0,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/string:45,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Provenance/interface/Hash.h:4,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Provenance/interface/ParameterSetID.h:18,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/FWCore/ParameterSet/interface/ParameterSet.h:14,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/NtupleTools/interface/PATFinalStateSelection.h:4,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/NtupleTools/src/PATFinalStateSelection.cc:1:
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53:23: error: 'uselocale' was not declared in this scope
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53:45: error: invalid type in declaration before ';' token
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h: In function 'int std::__convert_from_v(__locale_struct* const&, char*, int, const char*, ...)':
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:76:53: error: '__gnu_cxx::__uselocale' cannot be used as a function
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:101:33: error: '__gnu_cxx::__uselocale' cannot be used as a function
+In file included from /usr/include/stdio.h:929:0,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/cstdio:44,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ext/string_conversions.h:39,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/basic_string.h:2756,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/string:54,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/cppunit/1.12.1/include/cppunit/Message.h:12,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/cppunit/1.12.1/include/cppunit/Exception.h:5,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/cppunit/1.12.1/include/cppunit/TestCaller.h:4,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/cppunit/1.12.1/include/cppunit/extensions/HelperMacros.h:9,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/test/test_FinalState.cppunit.cc:5:
+/usr/include/bits/stdio.h: In function '__ssize_t getline(char**, size_t*, FILE*)':
+/usr/include/bits/stdio.h:118:52: error: '__getdelim' was not declared in this scope
+In file included from /usr/include/stdio.h:929:0,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/cstdio:44,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ext/string_conversions.h:39,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/basic_string.h:2756,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/string:54,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/FillView.h:11,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/fillPtrVector.h:24,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/OwnVector.h:6,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Candidate/interface/CandidateFwd.h:3,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/interface/ApplySVfit.h:12,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc:11:
+/usr/include/bits/stdio.h: In function '__ssize_t getline(char**, size_t*, FILE*)':
+/usr/include/bits/stdio.h:118:52: error: '__getdelim' was not declared in this scope
+In file included from /usr/include/stdio.h:929:0,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/cstdio:44,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ext/string_conversions.h:39,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/basic_string.h:2756,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/string:54,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Provenance/interface/Hash.h:4,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Provenance/interface/ParameterSetID.h:18,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/FWCore/ParameterSet/interface/ParameterSet.h:14,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/NtupleTools/interface/PATFinalStateSelection.h:4,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/NtupleTools/src/PATFinalStateSelection.cc:1:
+/usr/include/bits/stdio.h: In function '__ssize_t getline(char**, size_t*, FILE*)':
+/usr/include/bits/stdio.h:118:52: error: '__getdelim' was not declared in this scope
+In file included from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/localefwd.h:42:0,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ios:42,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/iostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/assert.hpp:82,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/smart_ptr/shared_ptr.hpp:29,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/shared_ptr.hpp:17,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/EDProductfwd.h:9,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/WrapperHolder.h:8,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/EDProductGetter.h:20,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/Ptr.h:23,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/DataFormats/PatCandidates/interface/PATObject.h:22,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/interface/PATFinalState.h:4,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/interface/PATMultiCandFinalState.h:4,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/PATMultiCandFinalState.cc:1:
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53:23: error: 'uselocale' was not declared in this scope
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53:45: error: invalid type in declaration before ';' token
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h: In function 'int std::__convert_from_v(__locale_struct* const&, char*, int, const char*, ...)':
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:76:53: error: '__gnu_cxx::__uselocale' cannot be used as a function
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:101:33: error: '__gnu_cxx::__uselocale' cannot be used as a function
+In file included from /usr/include/stdio.h:929:0,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/cstdio:44,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ext/string_conversions.h:39,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/basic_string.h:2756,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/string:54,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/locale_classes.h:42,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/ios_base.h:43,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ios:43,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/iostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/assert.hpp:82,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/smart_ptr/shared_ptr.hpp:29,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/shared_ptr.hpp:17,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/EDProductfwd.h:9,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/WrapperHolder.h:8,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/EDProductGetter.h:20,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/Ptr.h:23,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/DataFormats/PatCandidates/interface/PATObject.h:22,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/interface/PATFinalState.h:4,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/interface/PATMultiCandFinalState.h:4,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/PATMultiCandFinalState.cc:1:
+/usr/include/bits/stdio.h: In function '__ssize_t getline(char**, size_t*, FILE*)':
+/usr/include/bits/stdio.h:118:52: error: '__getdelim' was not declared in this scope
+In file included from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/localefwd.h:42:0,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ios:42,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/iostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/assert.hpp:82,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/smart_ptr/shared_ptr.hpp:29,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/shared_ptr.hpp:17,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/EDProductfwd.h:9,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/WrapperHolder.h:8,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/EDProductGetter.h:20,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/Ptr.h:23,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/DataFormats/PatCandidates/interface/PATObject.h:22,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/interface/PATFinalState.h:4,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/PATFinalState.cc:1:
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53:23: error: 'uselocale' was not declared in this scope
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53:45: error: invalid type in declaration before ';' token
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h: In function 'int std::__convert_from_v(__locale_struct* const&, char*, int, const char*, ...)':
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:76:53: error: '__gnu_cxx::__uselocale' cannot be used as a function
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:101:33: error: '__gnu_cxx::__uselocale' cannot be used as a function
+In file included from /usr/include/stdio.h:929:0,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/cstdio:44,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ext/string_conversions.h:39,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/basic_string.h:2756,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/string:54,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/locale_classes.h:42,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/ios_base.h:43,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ios:43,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/iostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/assert.hpp:82,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/smart_ptr/shared_ptr.hpp:29,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/shared_ptr.hpp:17,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/EDProductfwd.h:9,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/WrapperHolder.h:8,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/EDProductGetter.h:20,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/Ptr.h:23,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/DataFormats/PatCandidates/interface/PATObject.h:22,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/interface/PATFinalState.h:4,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/PATFinalState.cc:1:
+/usr/include/bits/stdio.h: In function '__ssize_t getline(char**, size_t*, FILE*)':
+/usr/include/bits/stdio.h:118:52: error: '__getdelim' was not declared in this scope
+In file included from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/localefwd.h:42:0,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ios:42,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/iostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/assert.hpp:82,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/smart_ptr/shared_ptr.hpp:29,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/shared_ptr.hpp:17,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/NtupleTools/interface/PATFinalStateAnalysis.h:11,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/NtupleTools/src/PATFinalStateAnalysis.cc:1:
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53:23: error: 'uselocale' was not declared in this scope
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53:45: error: invalid type in declaration before ';' token
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h: In function 'int std::__convert_from_v(__locale_struct* const&, char*, int, const char*, ...)':
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:76:53: error: '__gnu_cxx::__uselocale' cannot be used as a function
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:101:33: error: '__gnu_cxx::__uselocale' cannot be used as a function
+In file included from /usr/include/stdio.h:929:0,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/cstdio:44,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ext/string_conversions.h:39,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/basic_string.h:2756,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/string:54,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/locale_classes.h:42,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/ios_base.h:43,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ios:43,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/iostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/assert.hpp:82,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/smart_ptr/shared_ptr.hpp:29,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/shared_ptr.hpp:17,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/NtupleTools/interface/PATFinalStateAnalysis.h:11,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/NtupleTools/src/PATFinalStateAnalysis.cc:1:
+/usr/include/bits/stdio.h: In function '__ssize_t getline(char**, size_t*, FILE*)':
+/usr/include/bits/stdio.h:118:52: error: '__getdelim' was not declared in this scope
+In file included from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/localefwd.h:42,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ios:42,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/iostream:40,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/assert.hpp:82,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/smart_ptr/shared_ptr.hpp:29,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/boost/1.47.0/include/boost/shared_ptr.hpp:17,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/EDProductfwd.h:9,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/WrapperHolder.h:8,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/EDProductGetter.h:20,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/Ptr.h:23,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/DataFormats/PatCandidates/interface/PATObject.h:22,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/interface/PATFinalState.h:4,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes.h:1:
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53: error: 'uselocale' was not declared in this scope
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53: error: invalid type in declaration before ';' token
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h: In function 'int std::__convert_from_v(__locale_struct* const&, char*, int, const char*, ...)':
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:76: error: '__gnu_cxx::__uselocale' cannot be used as a function
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:101: error: '__gnu_cxx::__uselocale' cannot be used as a function
+gmake: *** [tmp/slc5_amd64_gcc462/src/FinalStateAnalysis/DataFormats/src/FinalStateAnalysisDataFormats/PATFinalStateProxy.o] Error 1
+gmake: *** Waiting for unfinished jobs....
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/PATFinalState.cc: At global scope:
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/PATFinalState.cc:324:1: error: 'vec' in namespace 'std' does not name a type
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc: In function 'std::vector<double> ApplySVfit::getSVfitMass(std::vector<edm::Ptr<reco::Candidate> >&, const pat::MET&, const TMatrixD&, unsigned int, const edm::EventID&)':
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc:41:25: error: expected unqualified-id before numeric constant
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc:50:12: warning: unused variable 'hash' [-Wunused-variable]
+gmake: *** [tmp/slc5_amd64_gcc462/src/FinalStateAnalysis/NtupleTools/src/FinalStateAnalysisNtupleTools/PATFinalStateSelection.o] Error 1
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc:89:3: error: control reaches end of non-void function [-Werror=return-type]
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/TauAnalysis/CandidateTools/interface/svFitAuxFunctions.h: At global scope:
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/TauAnalysis/CandidateTools/interface/svFitAuxFunctions.h:56:16: warning: 'SVfit_namespace::sinTheta_weinberg' defined but not used [-Wunused-variable]
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/TauAnalysis/CandidateTools/interface/svFitAuxFunctions.h:57:16: warning: 'SVfit_namespace::cosTheta_weinberg' defined but not used [-Wunused-variable]
+cc1plus: some warnings being treated as errors
+
+gmake: *** [tmp/slc5_amd64_gcc462/src/FinalStateAnalysis/DataAlgos/src/FinalStateAnalysisDataAlgos/ApplySVfit.o] Error 1
+gmake: *** [tmp/slc5_amd64_gcc462/src/FinalStateAnalysis/DataFormats/src/FinalStateAnalysisDataFormats/PATFinalState.o] Error 1
+gmake: *** [tmp/slc5_amd64_gcc462/src/FinalStateAnalysis/DataFormats/src/FinalStateAnalysisDataFormats/PATMultiCandFinalState.o] Error 1
+gmake: *** [tmp/slc5_amd64_gcc462/src/FinalStateAnalysis/DataFormats/test/TestPATFinalState/test_FinalState.cppunit.o] Error 1
+gmake: *** [tmp/slc5_amd64_gcc462/src/FinalStateAnalysis/NtupleTools/src/FinalStateAnalysisNtupleTools/PATFinalStateAnalysis.o] Error 1
+--->> genreflex: INFO: Parsing file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes.h with GCC_XML 
+--->> genreflex: ERROR: processing file with gccxml. genreflex command failed.
+--->> genreflex: WARNING: Class edm::Ptr<reco::Vertex > in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::PtrVector<reco::Vertex > in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Ptr<pat::Photon> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::RefProd<pat::ElectronCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::RefProd<pat::MuonCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::RefProd<pat::TauCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::RefProd<pat::PhotonCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::RefProd<pat::JetCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class std::map<std::string, float> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class std::pair<std::string, float> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class std::map<std::string, int> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class std::pair<std::string, int> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class std::map<std::string,edm::Ptr<pat::MET> > in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class VBFVariables in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class std::vector<PATFinalState*> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Ref<PATFinalStateCollection,PATFinalState,edm::refhelper::FindUsingAdvance<PATFinalStateCollection,PATFinalState> > in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::RefVector<PATFinalStateCollection,PATFinalState,edm::refhelper::FindUsingAdvance<PATFinalStateCollection,PATFinalState> > in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::RefProd<PATFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Ptr<PATFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATFinalStateProxy in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATFinalStateEvent in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATFinalStateEventCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATFinalStateEvent> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATFinalStateEventCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Ref<PATFinalStateEventCollection,PATFinalStateEvent,edm::refhelper::FindUsingAdvance<PATFinalStateEventCollection,PATFinalStateEvent> > in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::RefVector<PATFinalStateEventCollection,PATFinalStateEvent,edm::refhelper::FindUsingAdvance<PATFinalStateEventCollection,PATFinalStateEvent> > in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::RefProd<PATFinalStateEventCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Ptr<PATFinalStateEvent> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATFinalStateLS in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATFinalStateLSCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATFinalStateLS> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATFinalStateLSCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Ref<PATFinalStateLSCollection,PATFinalStateLS,edm::refhelper::FindUsingAdvance<PATFinalStateLSCollection,PATFinalStateLS> > in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::RefVector<PATFinalStateLSCollection,PATFinalStateLS,edm::refhelper::FindUsingAdvance<PATFinalStateLSCollection,PATFinalStateLS> > in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::RefProd<PATFinalStateLSCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Ptr<PATFinalStateLS> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMultiCandFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMultiCandFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMultiCandFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMultiCandFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Ref<PATMultiCandFinalStateCollection,PATMultiCandFinalState,edm::refhelper::FindUsingAdvance<PATMultiCandFinalStateCollection,PATMultiCandFinalState> > in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::RefVector<PATMultiCandFinalStateCollection,PATMultiCandFinalState,edm::refhelper::FindUsingAdvance<PATMultiCandFinalStateCollection,PATMultiCandFinalState> > in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::RefProd<PATMultiCandFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Ptr<PATMultiCandFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecTauFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecTauFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecTauFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecTauFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuTauFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuTauFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuTauFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuTauFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuJetFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuJetFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuJetFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuJetFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecJetFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecJetFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecJetFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecJetFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATTauTauFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATTauTauFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATTauTauFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATTauTauFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecElecFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecElecFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecElecFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecElecFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecMuFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecMuFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecMuFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecMuFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecTauFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecTauFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecTauFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecTauFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuMuFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuMuFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuMuFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuMuFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuTauFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuTauFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuTauFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuTauFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuMuFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuMuFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuMuFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuMuFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuTauFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuTauFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuTauFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuTauFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecTauTauFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecTauTauFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecTauTauFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecTauTauFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuTauTauFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuTauTauFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuTauTauFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuTauTauFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuJetJetFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuJetJetFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuJetJetFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuJetJetFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecElecElecFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecElecElecFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecElecElecFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecElecElecFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecElecMuFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecElecMuFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecElecMuFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecElecMuFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecElecTauFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecElecTauFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecElecTauFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecElecTauFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecMuMuFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecMuMuFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecMuMuFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecMuMuFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecMuTauFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecMuTauFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecMuTauFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecMuTauFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecTauTauFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecTauTauFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecTauTauFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecTauTauFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuMuMuFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuMuMuFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuMuMuFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuMuMuFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuMuTauFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuMuTauFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuMuTauFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuMuTauFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuTauTauFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuTauTauFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuTauTauFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuTauTauFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuMuMuFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuMuMuFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuMuMuFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuMuMuFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuMuTauFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuMuTauFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuMuTauFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuMuTauFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuTauTauFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuTauTauFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuTauTauFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuTauTauFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecPhoFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecPhoFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecPhoFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecPhoFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuPhoFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuPhoFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuPhoFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuPhoFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATPhoPhoFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATPhoPhoFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATPhoPhoFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATPhoPhoFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecPhoFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecPhoFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecPhoFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecPhoFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuPhoFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuPhoFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuPhoFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuPhoFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecPhoPhoFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecPhoPhoFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecPhoPhoFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecPhoPhoFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuPhoFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuPhoFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuPhoFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuPhoFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuPhoPhoFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuPhoPhoFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuPhoPhoFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuPhoPhoFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecElecPhoFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecElecPhoFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecElecPhoFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecElecPhoFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecMuPhoFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecMuPhoFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecMuPhoFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecMuPhoFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecPhoPhoFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecPhoPhoFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecElecPhoPhoFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecElecPhoPhoFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuMuPhoFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuMuPhoFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuMuPhoFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuMuPhoFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuPhoPhoFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuPhoPhoFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATElecMuPhoPhoFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATElecMuPhoPhoFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuMuPhoFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuMuPhoFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuMuPhoFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuMuPhoFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuPhoPhoFinalState in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuPhoPhoFinalState> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class PATMuMuPhoPhoFinalStateCollection in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+--->> genreflex: WARNING: Class edm::Wrapper<PATMuMuPhoPhoFinalStateCollection> in selection file /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataFormats/src/classes_def.xml not generated.
+gmake: *** [tmp/slc5_amd64_gcc462/src/FinalStateAnalysis/DataFormats/src/FinalStateAnalysisDataFormats/a/xr.cc] Error 1
+gmake: *** [There are compilation/build errors. Please see the detail log above.] Error 2

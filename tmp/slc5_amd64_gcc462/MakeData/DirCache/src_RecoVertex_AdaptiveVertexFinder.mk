@@ -1,0 +1,2 @@
+ALL_PACKAGES += $(patsubst src/%,%,src/RecoVertex/AdaptiveVertexFinder)
+subdirs_src_RecoVertex_AdaptiveVertexFinder := src_RecoVertex_AdaptiveVertexFinder_python src_RecoVertex_AdaptiveVertexFinder_src src_RecoVertex_AdaptiveVertexFinder_plugins src_RecoVertex_AdaptiveVertexFinder_test

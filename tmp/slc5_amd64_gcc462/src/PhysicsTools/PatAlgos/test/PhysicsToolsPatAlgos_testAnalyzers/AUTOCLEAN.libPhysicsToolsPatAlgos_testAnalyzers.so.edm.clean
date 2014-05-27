@@ -1,0 +1,2 @@
+01:/bin/rm -f lib/slc5_amd64_gcc462/pluginPhysicsToolsPatAlgos_testAnalyzers.so lib/slc5_amd64_gcc462/PhysicsToolsPatAlgos_testAnalyzers.edmplugin
+90:edmPluginRefresh lib/slc5_amd64_gcc462

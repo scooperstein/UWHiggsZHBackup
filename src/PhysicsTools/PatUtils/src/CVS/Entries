@@ -1,0 +1,21 @@
+/CaloIsolationEnergy.cc/1.4/Sun Nov  3 19:58:08 2013//TV03-09-28
+/CaloJetSelector.cc/1.5/Sun Nov  3 19:58:08 2013//TV03-09-28
+/CandRefHelper.cc/1.2/Sun Nov  3 19:58:08 2013//TV03-09-28
+/DuplicatedElectronRemover.cc/1.4/Sun Nov  3 19:58:08 2013//TV03-09-28
+/DuplicatedPhotonRemover.cc/1.1/Sun Nov  3 19:58:08 2013//TV03-09-28
+/ElectronSelector.cc/1.6/Sun Nov  3 19:58:08 2013//TV03-09-28
+/EventHypothesisTools.cc/1.1/Sun Nov  3 19:58:08 2013//TV03-09-28
+/LeptonJetIsolationAngle.cc/1.5/Sun Nov  3 19:58:08 2013//TV03-09-28
+/LeptonVertexSignificance.cc/1.3/Sun Nov  3 19:58:08 2013//TV03-09-28
+/MuonSelector.cc/1.8/Sun Nov  3 19:58:08 2013//TV03-09-28
+/ObjectResolutionCalc.cc/1.5/Sun Nov  3 19:58:08 2013//TV03-09-28
+/PATDiObjectProxy.cc/1.2/Sun Nov  3 19:58:08 2013//TV03-09-28
+/SimpleJetTrackAssociator.cc/1.2/Sun Nov  3 19:58:08 2013//TV03-09-28
+/StringParserTools.cc/1.2/Sun Nov  3 19:58:08 2013//TV03-09-28
+/TrackerIsolationPt.cc/1.6/Sun Nov  3 19:58:08 2013//TV03-09-28
+/TriggerHelper.cc/1.5/Sun Nov  3 19:58:08 2013//TV03-09-28
+/VertexAssociationSelector.cc/1.2/Sun Nov  3 19:58:08 2013//TV03-09-28
+/bJetSelector.cc/1.2/Sun Nov  3 19:58:08 2013//TV03-09-28
+/classes.h/1.2/Sun Nov  3 19:58:08 2013//TV03-09-28
+/classes_def.xml/1.2/Sun Nov  3 19:58:08 2013//TV03-09-28
+D

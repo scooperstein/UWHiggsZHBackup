@@ -1,0 +1,65 @@
+***************
+*** 92
+-     const std::string nameAlgorithm( iAlgorithm->name() );
+--- 92 -----
++     const std::string& nameAlgorithm( iAlgorithm->name() );
+***************
+*** 364
+-       const std::string namePath( iPath->name() );
+--- 364 -----
++       const std::string& namePath( iPath->name() );
+***************
+*** 378
+-     const std::string labelFilter( iFilter->label() );
+--- 378 -----
++     const std::string& labelFilter( iFilter->label() );
+***************
+*** 421
+-       const std::string labelFilter( iFilter->label() );
+--- 421 -----
++       const std::string& labelFilter( iFilter->label() );
+***************
+*** 487
+-     const std::string nameAlgorithm( iAlgorithm->name() );
+--- 487 -----
++     const std::string& nameAlgorithm( iAlgorithm->name() );
+***************
+*** 551
+-     const std::string nameCondition( iCondition->name() );
+--- 551 -----
++     const std::string& nameCondition( iCondition->name() );
+***************
+*** 567
+-     const std::string nameCondition( ( *iCondition )->name() );
+--- 567 -----
++     const std::string& nameCondition( ( *iCondition )->name() );
+***************
+*** 593
+-     const std::string nameAlgorithm( iAlgorithm->name() );
+--- 593 -----
++     const std::string& nameAlgorithm( iAlgorithm->name() );
+***************
+*** 610
+-       const std::string labelFilter( path( namePath )->modules().at( iM ) );
+--- 610 -----
++       const std::string& labelFilter( path( namePath )->modules().at( iM ) );
+***************
+*** 650
+-     const std::string namePath( iPath->name() );
+--- 650 -----
++     const std::string& namePath( iPath->name() );
+***************
+*** 714
+-     const std::string labelFilter( iFilter->label() );
+--- 714 -----
++     const std::string& labelFilter( iFilter->label() );
+***************
+*** 730
+-     const std::string labelFilter( ( *iFilter )->label() );
+--- 730 -----
++     const std::string& labelFilter( ( *iFilter )->label() );
+***************
+*** 756
+-     const std::string namePath( iPath->name() );
+--- 756 -----
++     const std::string& namePath( iPath->name() );

@@ -1,0 +1,16 @@
+/BaseIsolator.h/1.4/Sun Nov  3 19:58:05 2013//TV08-09-58
+/EfficiencyLoader.h/1.3/Sun Nov  3 19:58:05 2013//TV08-09-58
+/HemisphereAlgo.h/1.4/Sun Nov  3 19:58:05 2013//TV08-09-58
+/IsoDepositIsolator.h/1.7/Sun Nov  3 19:58:05 2013//TV08-09-58
+/KinResolutionsLoader.h/1.2/Sun Nov  3 19:58:05 2013//TV08-09-58
+/KinematicResolutionProvider.h/1.3/Sun Nov  3 19:58:05 2013//TV08-09-58
+/KinematicResolutionRcd.h/1.2/Sun Nov  3 19:58:05 2013//TV08-09-58
+/MultiIsolator.h/1.5/Sun Nov  3 19:58:05 2013//TV08-09-58
+/OverlapTest.h/1.4/Sun Nov  3 19:58:05 2013//TV08-09-58
+/PATPrimaryVertexSelector.h/1.2/Sun Nov  3 19:58:05 2013//TV08-09-58
+/PATUserDataHelper.h/1.8/Sun Nov  3 19:58:05 2013//TV08-09-58
+/PATUserDataMerger.h/1.10/Sun Nov  3 19:58:05 2013//TV08-09-58
+/SimpleIsolator.h/1.4/Sun Nov  3 19:58:05 2013//TV08-09-58
+/StringResolutionProvider.h/1.4/Sun Nov  3 19:58:05 2013//TV08-09-58
+/VertexingHelper.h/1.1/Sun Nov  3 19:58:05 2013//TV08-09-58
+D

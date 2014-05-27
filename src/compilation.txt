@@ -1,0 +1,392 @@
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Building CMSSW version CMSSW_5_3_9 ----
+>> Entering Package RecoVertex/AdaptiveVertexFinder
+>> Entering Package HiggsAnalysis/HiggsToTauTau
+------- copying files from src/HiggsAnalysis/HiggsToTauTau/scripts -------
+>> Entering Package HiggsAnalysis/CombinedLimit
+>> copied add_stat_shapes.py
+>> copied combine-bayes.py
+>> copied combine-cls.py
+>> copied combine-sig.py
+>> copied combine-single.py
+>> copied combine-tanb-asymptotic.py
+>> Entering Package FinalStateAnalysis/DataFormats
+>> copied combine-tanb.py
+>> copied combine_cards_with_names.sh
+>> copied count_crab_results.py
+>> copied create-datacard.py
+>> copied cvs2local.py
+------- copying files from src/HiggsAnalysis/CombinedLimit/scripts -------
+>> copied datacard-project.py
+>> Entering Package FinalStateAnalysis/TagAndProbe
+>> Entering Package FinalStateAnalysis/NtupleTools
+>> copied combineCards.py
+>> copied datacards2Tables.py
+>> copied text2workspace.py
+>> copied horizontal-morphing.py
+>> Entering Package FinalStateAnalysis/PlotTools
+>> copied init.py
+------- copying files from src/FinalStateAnalysis/NtupleTools/scripts -------
+>> Entering Package FinalStateAnalysis/Utilities
+------- copying files from src/FinalStateAnalysis/PlotTools/scripts -------
+>> copied inject-signal.py
+>> Entering Package FinalStateAnalysis/MetaData
+>> copied skim_ntuple_events.py
+------- copying files from src/FinalStateAnalysis/Utilities/scripts -------
+>> copied DumpMCvsData.py
+>> Entering Package FinalStateAnalysis/StatTools
+>> copied lands-bayes.py
+------- copying files from src/FinalStateAnalysis/MetaData/scripts -------
+>> Entering Package FinalStateAnalysis/PatTools
+>> copied TriggerFinder.py
+>> copied add_tag_to_json.py
+>> copied convertRunEventListToJSON.py
+>> copied lands-cls.py
+>> copied addSelectedHPSTaus.py
+>> copied combine_event_lists.py
+>> copied findDataset.py
+>> copied limit.py
+>> copied averageLuminosity.py
+>> copied discover_ntuples.py
+>> copied fsaPickEvents.py
+>> copied check_git_updates.sh
+>> copied lxb_limit.py
+>> copied dump_branch_names.py
+>> copied get_lumis_from_dbs.py
+>> copied lxb_submit.py
+>> copied compareEventLists.py
+>> copied get_mc_lumi.py
+>> copied scale-counting.py
+>> copied dump_profile_stats.py
+>> copied condor_summary.py
+>> copied get_tuple_info.py
+>> copied scale2SM.py
+>> copied embed_label.py
+>> copied convertHD5.py
+>> copied make_tuple_table.py
+>> copied events_overlap.py
+>> copied scale2unit.py
+>> copied das_client.py
+>> copied pick.py
+>> copied extract_meta_info.py
+>> copied setup-batch.py
+>> copied deltaR.py
+>> copied pickEvents.py
+>> copied make_cython_proxy.py
+>> copied setup-datacards.py
+>> copied dropLumiInfo.py
+>> copied printEvents.py
+>> copied mega
+>> copied setup-htt-SM4.py
+>> copied dumpRuns.py
+------- copying files from src/FinalStateAnalysis/StatTools/scripts -------
+>> copied tuple_watcher.py
+>> Entering Package FinalStateAnalysis/recipe
+>> copied mega-batch.sh
+>> Entering Package FinalStateAnalysis/DataAlgos
+>> copied setup-htt.py
+>> copied edmEventSizeReport.py
+>> Entering Package FinalStateAnalysis/RecoTools
+>> copied compare_fits.py
+>> copied mega-farmout
+>> copied setup-hww.py
+>> copied eventListJSONDump.py
+>> Entering Package FWCore/GuiBrowsers
+>> copied compare_limit.py
+>> copied mega.py
+------- copying files from src/FinalStateAnalysis/RecoTools/scripts -------
+>> Entering Package JetMETCorrections/METPUSubtraction
+>> copied eventlist2lumimask.py
+>> copied setup-ztt.py
+>> copied comparelimit.py
+>> copied dumpTrigger.py
+>> copied megadebug
+>> copied extract_json.py
+------- copying files from src/FWCore/GuiBrowsers/scripts -------
+>> copied submit-slave.py
+>> copied compute_cls.sh
+>> copied megaevents.py
+>> Entering Package JetMETCorrections/Type1MET
+>> copied submit.py
+>> copied get_ntuple_entries.py
+>> copied edmConfigBrowser
+>> copied compute_limits.sh
+>> copied pick_fsa_events.py
+>> copied large_hadd.py
+>> Entering Package RecoMET/METAlgorithms
+>> copied edmConfigEditor
+>> copied svn2local.py
+>> copied compute_significance.sh
+>> Entering Package RecoMET/METProducers
+>> copied shapes2hist.py
+>> copied lumicalc_parser.py
+>> copied edmConfigEditorSSH
+>> copied efficiency.py
+>> copied lumimask_ops.py
+>> copied edmConfigToGraph
+>> copied fit_efficiency.py
+>> Entering Package RecoJets/JetProducers
+>> copied percentDiff.py
+>> copied edmConfigToHTML
+>> Entering Package test_setup/setup
+>> copied fit_efficiency2D.py
+>> Entering Package test_setup/aux
+>> copied printEventContent_cfg.py
+>> Entering Package RecoEgamma/EgammaTools
+>> copied fit_efficiency_chi2.py
+>> Entering Package Higgs/Higgs_CS_and_Width
+>> copied print_histogram_yields.py
+>> copied harvest_limits.py
+>> Entering Package RecoBTag/SecondaryVertex
+>> copied quad.py
+>> Entering Package RecoTauTag/RecoTau
+>> copied interpolate_card.py
+>> copied resubmit_failed_jobs.sh
+>> copied limit2JSON.py
+>> copied root_file_check.py
+>> copied limitROOT2JSON.py
+>> copied submit_job.py
+>> copied make_grid_submission.py
+>> Entering Package RecoTauTag/Configuration
+>> Entering Package HZZ4L_Combination/CombinationPy
+>> copied sumcol.py
+>> Entering Package ZZMatrixElement/MEMCalculators
+>> Entering Package ZZMatrixElement/MEKD
+>> Entering Package ZZMatrixElement/MELA
+>> copied plot_limit.py
+>> copied trimJSON.py
+>> Entering Package UWHiggs/wh
+>> Entering Package UWHiggs/tth
+>> Entering Package UWHiggs/dependencies
+>> Entering Package UWHiggs/test
+>> copied plotlimit.py
+>> Entering Package UWHiggs/lfvmutau
+>> Entering Package UWHiggs/hzg
+>> copied remove_systematics.py
+>> Entering Package UWHiggs/h2tau
+>> Entering Package UWHiggs/zh
+------- copying files from src/UWHiggs/hzg/scripts -------
+>> Entering Package PhysicsTools/PatAlgos
+>> copied run_grid_point.sh
+>> copied hzg_analysis.py
+>> copied sOverSqrtSpB.py
+------- copying files from src/PhysicsTools/PatAlgos/scripts -------
+>> copied hzg_electron_cutflow_dump_52X.py
+>> copied signal_strength_to_xsec.py
+>> Entering Package PhysicsTools/PatUtils
+>> copied patReplaceFast.pl
+>> copied hzg_muon_cutflow_dump_52X.py
+>> copied stupidLimitCombiner.py
+>> Entering Package DataFormats/JetReco
+>> Entering Package DataFormats/METReco
+>> copied patReplaceGenerator.sh
+>> Entering Package DataFormats/StdDictionaries
+>> Entering Package DataFormats/CaloRecHit
+>> copied texlimit.py
+>> Entering Package DataFormats/HLTReco
+>> Entering Package CommonTools/RecoUtils
+>> copied patReplaceParser.pl
+>> Entering Package CommonTools/ParticleFlow
+>> copied print_hzg_ntuples.py
+>> copied train_kNN.py
+>> copied run_hzg_sync_42X.sh
+>> Entering Package TauAnalysis/CandidateTools
+>> Entering Package CondFormats/EgammaObjects
+>> Entering Package RecoLuminosity/LumiDB
+>> copied run_hzg_sync_52X.sh
+>> Entering Package RecoParticleFlow/PFProducer
+>> copied run_hzg_sync_53X.sh
+------- copying files from src/RecoLuminosity/LumiDB/scripts -------
+>> Entering Package QuarkGluonTagger/EightTeV
+>> copied submit_hzg_analysis.py
+>> Entering Package EgammaAnalysis/ElectronTools
+>> copied applyCalibration.py
+>> Creating project symlinks
+>> copied submit_hzg_ntuples.py
+>> copied csvLumiCalc.py
+>> copied dumpFill.py
+>> copied dumpRunInfo.py
+>> copied dumpTrg.py
+>> copied dumpWBM.py
+>> copied estimatePileup.py
+>> copied estimatePileup2.py
+>> copied estimatePileup_makeJSON.py
+>> copied lumiCalc2.py
+>> copied lumiContext.py
+>> copied lumiDBFiller.py
+>> copied lumiData2.py
+>> copied lumiNorm.py
+>> copied lumiPatch.py
+>> copied lumiPlot.py
+>> copied lumiSchema.py
+>> copied lumiTag.py
+>> copied lumidb2Schema.py
+>> Leaving Package FinalStateAnalysis/recipe
+>> Package FinalStateAnalysis/recipe built
+>> copied pileupCalc.py
+>> copied pileupReCalc_HLTpaths.py
+>> copied pixelLumiCalc.py
+>> copied specificLumi.py
+>> Leaving Package test_setup/setup
+>> Package test_setup/setup built
+>> copied summaryLumi.py
+>> Leaving Package test_setup/aux
+>> Package test_setup/aux built
+>> Leaving Package HZZ4L_Combination/CombinationPy
+>> Leaving Package UWHiggs/wh
+>> Leaving Package UWHiggs/tth
+>> Package UWHiggs/wh built
+>> Package UWHiggs/tth built
+>> Leaving Package UWHiggs/dependencies
+>> Package UWHiggs/dependencies built
+>> Leaving Package UWHiggs/test
+>> Leaving Package UWHiggs/lfvmutau
+>> Package UWHiggs/test built
+>> Package UWHiggs/lfvmutau built
+>> Leaving Package UWHiggs/h2tau
+>> Leaving Package UWHiggs/zh
+>> Package UWHiggs/h2tau built
+>> Package UWHiggs/zh built
+>> Subsystem test_setup built
+>> Subsystem HZZ4L_Combination built
+>> Compiling  /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc 
+>> Leaving Package FinalStateAnalysis/PlotTools
+>> Leaving Package FinalStateAnalysis/MetaData
+>> Package FinalStateAnalysis/PlotTools built
+>> Package FinalStateAnalysis/MetaData built
+>> Leaving Package FinalStateAnalysis/StatTools
+>> Package FinalStateAnalysis/StatTools built
+>> Leaving Package FinalStateAnalysis/RecoTools
+>> Package FinalStateAnalysis/RecoTools built
+>> Leaving Package FWCore/GuiBrowsers
+>> Package FWCore/GuiBrowsers built
+>> Leaving Package JetMETCorrections/METPUSubtraction
+>> Package JetMETCorrections/METPUSubtraction built
+>> Leaving Package JetMETCorrections/Type1MET
+>> Package JetMETCorrections/Type1MET built
+>> Leaving Package RecoMET/METAlgorithms
+>> Package RecoMET/METAlgorithms built
+>> Leaving Package RecoMET/METProducers
+>> Package RecoMET/METProducers built
+>> Leaving Package RecoJets/JetProducers
+>> Package RecoJets/JetProducers built
+>> Leaving Package RecoEgamma/EgammaTools
+>> Package RecoEgamma/EgammaTools built
+>> Leaving Package Higgs/Higgs_CS_and_Width
+>> Package Higgs/Higgs_CS_and_Width built
+>> Leaving Package RecoBTag/SecondaryVertex
+>> Package RecoBTag/SecondaryVertex built
+>> Leaving Package RecoTauTag/RecoTau
+>> Package RecoTauTag/RecoTau built
+>> Leaving Package RecoTauTag/Configuration
+>> Package RecoTauTag/Configuration built
+>> Leaving Package ZZMatrixElement/MEMCalculators
+>> Leaving Package ZZMatrixElement/MEKD
+>> Package ZZMatrixElement/MEMCalculators built
+>> Leaving Package ZZMatrixElement/MELA
+>> Package ZZMatrixElement/MELA built
+>> Leaving Package UWHiggs/hzg
+>> Package UWHiggs/hzg built
+>> Leaving Package PhysicsTools/PatAlgos
+>> Package PhysicsTools/PatAlgos built
+>> Leaving Package PhysicsTools/PatUtils
+>> Package PhysicsTools/PatUtils built
+>> Leaving Package DataFormats/PatCandidates
+>> Package DataFormats/PatCandidates built
+>> Leaving Package DataFormats/JetReco
+>> Leaving Package DataFormats/METReco
+>> Package DataFormats/JetReco built
+>> Package DataFormats/METReco built
+>> Leaving Package DataFormats/StdDictionaries
+>> Package DataFormats/StdDictionaries built
+>> Leaving Package DataFormats/CaloRecHit
+>> Package DataFormats/CaloRecHit built
+>> Leaving Package DataFormats/HLTReco
+>> Package DataFormats/HLTReco built
+>> Leaving Package CommonTools/RecoUtils
+>> Package CommonTools/RecoUtils built
+>> Leaving Package CommonTools/ParticleFlow
+>> Package CommonTools/ParticleFlow built
+>> Leaving Package TauAnalysis/CandidateTools
+>> Package TauAnalysis/CandidateTools built
+>> Leaving Package CondFormats/EgammaObjects
+>> Package CondFormats/EgammaObjects built
+>> Leaving Package RecoLuminosity/LumiDB
+>> Package RecoLuminosity/LumiDB built
+>> Leaving Package RecoParticleFlow/PFProducer
+>> Package RecoParticleFlow/PFProducer built
+>> Leaving Package QuarkGluonTagger/EightTeV
+>> Leaving Package EgammaAnalysis/ElectronTools
+>> Package QuarkGluonTagger/EightTeV built
+>> Package EgammaAnalysis/ElectronTools built
+>> Leaving Package RecoVertex/AdaptiveVertexFinder
+>> Package RecoVertex/AdaptiveVertexFinder built
+>> Subsystem FWCore built
+>> Leaving Package HiggsAnalysis/HiggsToTauTau
+>> Leaving Package HiggsAnalysis/CombinedLimit
+>> Package HiggsAnalysis/HiggsToTauTau built
+>> Subsystem JetMETCorrections built
+>> Package HiggsAnalysis/CombinedLimit built
+>> Subsystem RecoMET built
+>> Subsystem RecoJets built
+>> Subsystem RecoEgamma built
+>> Subsystem Higgs built
+>> Subsystem RecoBTag built
+>> Subsystem RecoTauTag built
+>> Subsystem ZZMatrixElement built
+>> Subsystem UWHiggs built
+>> Subsystem PhysicsTools built
+>> Subsystem DataFormats built
+>> Subsystem CommonTools built
+>> Subsystem TauAnalysis built
+>> Subsystem CondFormats built
+>> Subsystem RecoLuminosity built
+>> Subsystem RecoParticleFlow built
+>> Subsystem QuarkGluonTagger built
+>> Subsystem EgammaAnalysis built
+>> Subsystem RecoVertex built
+>> Subsystem HiggsAnalysis built
+In file included from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/localefwd.h:42:0,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/string:45,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/FillView.h:11,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/fillPtrVector.h:24,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/OwnVector.h:6,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Candidate/interface/CandidateFwd.h:3,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/interface/ApplySVfit.h:12,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc:11:
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53:23: error: 'uselocale' was not declared in this scope
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:53:45: error: invalid type in declaration before ';' token
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h: In function 'int std::__convert_from_v(__locale_struct* const&, char*, int, const char*, ...)':
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:76:53: error: '__gnu_cxx::__uselocale' cannot be used as a function
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/x86_64-unknown-linux-gnu/bits/c++locale.h:101:33: error: '__gnu_cxx::__uselocale' cannot be used as a function
+In file included from /usr/include/stdio.h:929:0,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/cstdio:44,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/ext/string_conversions.h:39,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/basic_string.h:2756,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/string:54,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/FillView.h:11,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/fillPtrVector.h:24,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Common/interface/OwnVector.h:6,
+                 from /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Candidate/interface/CandidateFwd.h:3,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/interface/ApplySVfit.h:12,
+                 from /afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc:11:
+/usr/include/bits/stdio.h: In function '__ssize_t getline(char**, size_t*, FILE*)':
+/usr/include/bits/stdio.h:118:52: error: '__getdelim' was not declared in this scope
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc: In function 'std::vector<double> ApplySVfit::getSVfitMass(std::vector<edm::Ptr<reco::Candidate> >&, const pat::MET&, const TMatrixD&, unsigned int, const edm::EventID&)':
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc:87:35: error: no matching function for call to 'std::map<long unsigned int, std::vector<double> >::insert(size_t&, std::vector<double>&)'
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/FinalStateAnalysis/DataAlgos/src/ApplySVfit.cc:87:35: note: candidates are:
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_map.h:517:7: note: std::pair<typename std::_Rb_tree<_Key, std::pair<const _Key, _Tp>, std::_Select1st<std::pair<const _Key, _Tp> >, _Compare, typename _Alloc::rebind<std::map<_Key, _Tp, _Compare, _Alloc>::value_type>::other>::iterator, bool> std::map<_Key, _Tp, _Compare, _Alloc>::insert(const value_type&) [with _Key = long unsigned int, _Tp = std::vector<double>, _Compare = std::less<long unsigned int>, _Alloc = std::allocator<std::pair<const long unsigned int, std::vector<double> > >, typename std::_Rb_tree<_Key, std::pair<const _Key, _Tp>, std::_Select1st<std::pair<const _Key, _Tp> >, _Compare, typename _Alloc::rebind<std::map<_Key, _Tp, _Compare, _Alloc>::value_type>::other>::iterator = std::_Rb_tree_iterator<std::pair<const long unsigned int, std::vector<double> > >, std::map<_Key, _Tp, _Compare, _Alloc>::value_type = std::pair<const long unsigned int, std::vector<double> >]
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_map.h:517:7: note:   candidate expects 1 argument, 2 provided
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_map.h:525:9: note: template<class _Pair, class> std::pair<typename std::_Rb_tree<_Key, std::pair<const _Key, _Tp>, std::_Select1st<std::pair<const _Key, _Tp> >, _Compare, typename _Alloc::rebind<std::map<_Key, _Tp, _Compare, _Alloc>::value_type>::other>::iterator, bool> std::map::insert(_Pair&&) [with _Pair = _Pair, <template-parameter-2-2> = <template-parameter-1-2>, _Key = long unsigned int, _Tp = std::vector<double>, _Compare = std::less<long unsigned int>, _Alloc = std::allocator<std::pair<const long unsigned int, std::vector<double> > >, typename std::_Rb_tree<_Key, std::pair<const _Key, _Tp>, std::_Select1st<std::pair<const _Key, _Tp> >, _Compare, typename _Alloc::rebind<std::map<_Key, _Tp, _Compare, _Alloc>::value_type>::other>::iterator = std::_Rb_tree_iterator<std::pair<const long unsigned int, std::vector<double> > >]
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_map.h:538:7: note: void std::map<_Key, _Tp, _Compare, _Alloc>::insert(std::initializer_list<std::pair<const _Key, _Tp> >) [with _Key = long unsigned int, _Tp = std::vector<double>, _Compare = std::less<long unsigned int>, _Alloc = std::allocator<std::pair<const long unsigned int, std::vector<double> > >]
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_map.h:538:7: note:   candidate expects 1 argument, 2 provided
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_map.h:567:7: note: std::map<_Key, _Tp, _Compare, _Alloc>::iterator std::map<_Key, _Tp, _Compare, _Alloc>::insert(std::map<_Key, _Tp, _Compare, _Alloc>::const_iterator, const value_type&) [with _Key = long unsigned int, _Tp = std::vector<double>, _Compare = std::less<long unsigned int>, _Alloc = std::allocator<std::pair<const long unsigned int, std::vector<double> > >, std::map<_Key, _Tp, _Compare, _Alloc>::iterator = std::_Rb_tree_iterator<std::pair<const long unsigned int, std::vector<double> > >, std::map<_Key, _Tp, _Compare, _Alloc>::const_iterator = std::_Rb_tree_const_iterator<std::pair<const long unsigned int, std::vector<double> > >, std::map<_Key, _Tp, _Compare, _Alloc>::value_type = std::pair<const long unsigned int, std::vector<double> >]
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_map.h:567:7: note:   no known conversion for argument 1 from 'size_t {aka long unsigned int}' to 'std::_Rb_tree_const_iterator<std::pair<const long unsigned int, std::vector<double> > >'
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_map.h:578:9: note: template<class _Pair, class> std::map<_Key, _Tp, _Compare, _Alloc>::iterator std::map::insert(std::map<_Key, _Tp, _Compare, _Alloc>::const_iterator, _Pair&&) [with _Pair = _Pair, <template-parameter-2-2> = <template-parameter-1-2>, _Key = long unsigned int, _Tp = std::vector<double>, _Compare = std::less<long unsigned int>, _Alloc = std::allocator<std::pair<const long unsigned int, std::vector<double> > >, std::map<_Key, _Tp, _Compare, _Alloc>::iterator = std::_Rb_tree_iterator<std::pair<const long unsigned int, std::vector<double> > >, std::map<_Key, _Tp, _Compare, _Alloc>::const_iterator = std::_Rb_tree_const_iterator<std::pair<const long unsigned int, std::vector<double> > >]
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../include/c++/4.6.2/bits/stl_map.h:593:9: note: template<class _InputIterator> void std::map::insert(_InputIterator, _InputIterator) [with _InputIterator = _InputIterator, _Key = long unsigned int, _Tp = std::vector<double>, _Compare = std::less<long unsigned int>, _Alloc = std::allocator<std::pair<const long unsigned int, std::vector<double> > >]
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/TauAnalysis/CandidateTools/interface/svFitAuxFunctions.h: At global scope:
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/TauAnalysis/CandidateTools/interface/svFitAuxFunctions.h:56:16: warning: 'SVfit_namespace::sinTheta_weinberg' defined but not used [-Wunused-variable]
+/afs/hep.wisc.edu/user/stephane/sync_setup/src/TauAnalysis/CandidateTools/interface/svFitAuxFunctions.h:57:16: warning: 'SVfit_namespace::cosTheta_weinberg' defined but not used [-Wunused-variable]
+gmake: *** [tmp/slc5_amd64_gcc462/src/FinalStateAnalysis/DataAlgos/src/FinalStateAnalysisDataAlgos/ApplySVfit.o] Error 1
+gmake: *** [There are compilation/build errors. Please see the detail log above.] Error 2

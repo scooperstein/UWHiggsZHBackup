@@ -1,0 +1,2 @@
+ALL_PACKAGES += $(patsubst src/%,%,src/FinalStateAnalysis/Utilities)
+subdirs_src_FinalStateAnalysis_Utilities := src_FinalStateAnalysis_Utilities_python src_FinalStateAnalysis_Utilities_scripts src_FinalStateAnalysis_Utilities_bin src_FinalStateAnalysis_Utilities_src src_FinalStateAnalysis_Utilities_test

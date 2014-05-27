@@ -1,0 +1,21 @@
+tmp/slc5_amd64_gcc462/src/DataFormats/CaloRecHit/src/DataFormatsCaloRecHit/CaloCluster.o: \
+ /afs/hep.wisc.edu/user/stephane/sync_setup/src/DataFormats/CaloRecHit/src/CaloCluster.cc \
+ /afs/hep.wisc.edu/user/stephane/sync_setup/src/DataFormats/CaloRecHit/interface/CaloCluster.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/Math/interface/Point3D.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Math/Point3D.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Math/Point3Dfwd.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Math/GenVector/Cartesian3D.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Math/GenVector/Polar3Dfwd.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Math/Math.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Math/GenVector/eta.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Math/GenVector/etaMax.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Math/GenVector/CylindricalEta3D.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Math/GenVector/Polar3D.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Math/GenVector/Cylindrical3D.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Math/GenVector/PositionVector3D.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Math/GenVector/DisplacementVector3Dfwd.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Math/GenVector/GenVectorIO.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Math/GenVector/BitReproducible.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/lcg/root/5.32.00-cms21/include/Math/GenVector/CoordinateSystemTags.h \
+ /afs/hep.wisc.edu/user/stephane/sync_setup/src/DataFormats/CaloRecHit/interface/CaloID.h \
+ /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_9/src/DataFormats/DetId/interface/DetId.h

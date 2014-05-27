@@ -1,0 +1,2 @@
+ALL_PACKAGES += $(patsubst src/%,%,src/FinalStateAnalysis/TagAndProbe)
+subdirs_src_FinalStateAnalysis_TagAndProbe := src_FinalStateAnalysis_TagAndProbe_src src_FinalStateAnalysis_TagAndProbe_test src_FinalStateAnalysis_TagAndProbe_python
